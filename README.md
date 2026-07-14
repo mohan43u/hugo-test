@@ -19,13 +19,6 @@ $ git submodule update --init --depth 1
 
 [.github/workflows/pages.yml](.github/workflows/pages.yml)
 
-- Remove following two files by running the following commandlines under cloned repository directory.
-
-```
-$ rm content/posts/2026/first.md
-$ rm content/posts/2026/second.md
-```
-
 - Create your own content by running following commandline under cloned repository directory.
 
 ```

@@ -1,6 +1,7 @@
 This repo is created to easily create personal blogs under `yourgithubaccount.github.io/yourforkedrepo`.
 
 - Fork this repository into your own repository (lets call it `yourforkedrepo`)
+- Go to repository `Settings -> Pages`, under `Build and Deployment` change `Source` to `Github actions`.
 - Clone your forked repo to your computer
 
 ```console

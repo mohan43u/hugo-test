@@ -12,16 +12,16 @@ $ git submodule update --init --depth 1
 
 - Replace `Hugo-Test` in `title:` with your Blog's heading (eg: My Personal Blog) in this following file.
 
-config/_default/languages.en.toml
+[](config/_default/languages.en.toml)
 
 - replace `mohan43u.github.io/hugo-test` with your own url like `yourgithubaccount.github.io/yourforkedrepo` throughout this following file.
 
-.github/workflows/pages.yml
+[](.github/workflows/pages.yml)
 
 - remove following two files
 
-content/posts/2026/first.md
-content/posts/2026/second.md
+[](content/posts/2026/first.md)
+[](content/posts/2026/second.md)
 
 - Create your own content by running following commandline under cloned repository directory.
 

@@ -20,7 +20,7 @@ $ git submodule update --init --depth 1
 
 - remove following two files
 
-[content/posts/2026/first.md](content/posts/2026/first.md)
+[content/posts/2026/first.md](content/posts/2026/first.md)\
 [content/posts/2026/second.md](content/posts/2026/second.md)
 
 - Create your own content by running following commandline under cloned repository directory.

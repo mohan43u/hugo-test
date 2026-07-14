@@ -19,13 +19,16 @@ $ git submodule update --init --depth 1
 
 [.github/workflows/pages.yml](.github/workflows/pages.yml)
 
-- Create your own content by running following commandline under cloned repository directory.
-
+- Create your own content by creating `.md` files under `content/posts/2026/` directory like `content/posts/2026/first.md`
+- Make sure your `.md` files begin with following header (modify the `date` and `title` as you wish)
 ```
-$ hugo new content content/posts/2026/first.md
++++
+date = '2026-07-14T19:29:00Z'
+title = 'my blog post'
++++
 ```
 
-- Edit this `first.md` file in your favourite editor. once you conplete, then run the following commandline under cloned repository directory
+- Once you conplete your blog post, run the following commandlines to add your blog post (replace `first.md` with your `.md` filename)
 
 ```
 $ git add content/posts/2026/first.md

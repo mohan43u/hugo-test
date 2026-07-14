@@ -40,4 +40,4 @@ $ git commit -m 'added first.md'
 $ git push origin master
 ```
 
-Thats all, wait for few seconds for github actions to deploy your blog, then your blog will appear at `https://yourgithubaccount.github.io/yourforkedrepo`.
+Thats all, wait for few seconds for github actions to deploy your blog, then your blog will appear at `https://yourgithubaccount.github.io/yourforkedrepo`. You can redesign your blog by reading the documents of `blowfish` from here [https://blowfish.page/docs/](https://blowfish.page/docs/).
